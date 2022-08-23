@@ -7,9 +7,9 @@ class MoedasPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('cripto moedas'),
+        title: const Text('cripto moedas'),
       ),
-      body: Center(child: Text("Olá")),
+      body: const Center(child: Text("Olá")),
     );
   }
 }
@@ -23,11 +23,11 @@ class Meuapp extends StatelessWidget {
       title: "Moedasbase",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.indigo),
-      home: MoedasPage(),
+      home: const MoedasPage(),
     );
   }
 }
 
 void main() {
-  runApp(Meuapp());
+  runApp(const Meuapp());
 }
